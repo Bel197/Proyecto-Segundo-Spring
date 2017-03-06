@@ -1,6 +1,3 @@
-
-
-
 function mostrar1 () {
   var resultado = document.getElementById('resultado');
   var spring1 = document.getElementById('spring1');
