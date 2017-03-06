@@ -12,13 +12,55 @@
     <img src="assets/image/image.svg">
   </div>
 
-  <h2><strong>Que es Laboratoria?</strong></h2>
+  <h2><strong>¿Que es Laboratoria?</strong></h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h3>Temas</h3>
-  <button type="button" name="button">Sprint 1</button>
-  <button type="button" name="button">Sprint 2</button>
-  <button type="button" name="button">Sprint 3</button>
+  <button type="button" name="button" onclick="mostrar('spring1')">Sprint 1</button>
+  <button type="button" name="button" onclick="mostrar('spring2')">Sprint 2</button>
+  <button type="button" name="button" onclick="mostrar('spring3')">Sprint 3</button>
+  <br></br>
+  <div id="spring1"></div>
+  <div id="spring2">
+    <h2><strong>Spring 2: Introduccion al desarollo web y construccion de paginas web</strong></h2>
+    <ol>
+      <li>Ciclo de vida del desarrollo web y arquitectura basica cliente/servidor / Configuracion del ambiente de trabajo e introduccion a git</li>
+      <li>HTML y Javascript en el navegador</li>
+      <li>Manejo de comandos basicos de git en la terminal</li>
+      <li>Pruebas unitarias</li>
+      <li>Git / Resolucion de conflictos / Branching model</li>
+      <li>DOM</li>
+    </ol>
+  </div>
+  <hr>
+  <div>
+    <h2><strong>Quiz</strong></h2>
+    <p><strong>¿Cual es el comando para iniciar un repositorio desde la consola?</strong></p>
+    <input type="radio" name="" value="1">git init.
+    <br></br>
+    <input type="radio" name="" value="2">git init
+    <br></br>
+    <input type="radio" name="" value="3">git init add
+    <br></br>
+    <p><strong>¿Cual es la finalidad de hacer una prueba unitaria?</strong></p>
+    <input type="radio" name="" value="1">Comprobar que el codigo funciona correctamente
+    <br></br>
+    <input type="radio" name="" value="2">Darle valores a los parametros de dichas funciones
+    <br></br>
+    <input type="radio" name="" value="3">No tiene ningun fin
+    <br></br>
+    <p><strong>¿Que significa DOM?</strong></p>
+    <input type="radio" name="" value="1">Dual Objet Model
+    <br></br>
+    <input type="radio" name="" value="2">Document Object Model
+    <br></br>
+    <input type="radio" name="" value="3">Document Obsolet Model
+    <br></br>
+  </div>
+  <div id="spring3"></div>
+  <br></br>
+
+  <button type="button" name="button">Enviar</button>
 </body>
 </html>
